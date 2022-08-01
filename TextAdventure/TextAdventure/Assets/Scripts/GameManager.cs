@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        //StartCoroutine(OpeningScene());
+        StartCoroutine(OpeningScene());
     }
 
     public void OpenDoor()
